@@ -1,0 +1,952 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>No-Deposit Casino Offers — Pennsylvania, Ranked</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f4f5f1;
+        --surface: #ffffff;
+        --surface-2: #eceee8;
+        --ink: #17211b;
+        --ink-soft: #47534a;
+        --line: #d6dbd2;
+        --felt: #0e4630;
+        --felt-deep: #093624;
+        --gold: #a97e12;
+        --gold-bright: #c9a227;
+        --gold-ink: #6d5205;
+        --chip: #eef3ec;
+        --warn-bg: #fdf3e3;
+        --warn-line: #e3c98f;
+        --warn-ink: #5d4303;
+        --bad-bg: #fbeeee;
+        --bad-line: #e2b3b3;
+        --bad-ink: #6e2222;
+        --ok: #0e6b3f;
+        --btn-ink: #ffffff;
+        --shadow: 0 10px 30px rgba(14, 50, 34, 0.10);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0a1712;
+          --surface: #12241c;
+          --surface-2: #183026;
+          --ink: #eef3ec;
+          --ink-soft: #a9bba9;
+          --line: #2a4536;
+          --felt: #0e4630;
+          --felt-deep: #07291b;
+          --gold: #d9b64a;
+          --gold-bright: #e8c95c;
+          --gold-ink: #e8c95c;
+          --chip: #1b3527;
+          --warn-bg: #2c2410;
+          --warn-line: #6b5620;
+          --warn-ink: #f0d488;
+          --bad-bg: #2e1616;
+          --bad-line: #6e2f2f;
+          --bad-ink: #f0a8a8;
+          --ok: #5fd39a;
+          --btn-ink: #ffffff;
+          --shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+        }
+      }
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        font-size: 17px;
+        line-height: 1.55;
+      }
+      a { color: var(--felt); }
+      @media (prefers-color-scheme: dark) { a { color: var(--gold); } }
+      .wrap { max-width: 880px; margin: 0 auto; padding: 0 18px 64px; }
+
+      /* ---------- header ---------- */
+      header.masthead {
+        background: linear-gradient(160deg, var(--felt) 0%, var(--felt-deep) 100%);
+        color: #f4efe0;
+        padding: 34px 18px 30px;
+        border-bottom: 4px solid var(--gold-bright);
+      }
+      .masthead-inner { max-width: 880px; margin: 0 auto; }
+      .masthead h1 {
+        font-family: "Playfair Display", Georgia, serif;
+        font-weight: 800;
+        font-size: clamp(30px, 6vw, 44px);
+        line-height: 1.12;
+        margin: 0 0 10px;
+      }
+      .masthead p.lede { margin: 0 0 14px; font-size: 18px; color: #e6e0c8; max-width: 640px; }
+      .meta-row { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; color: #cfd8c2; }
+      .meta-row strong { color: #f4efe0; }
+
+      /* ---------- method note ---------- */
+      .method {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 16px 18px;
+        margin: 22px 0 8px;
+        font-size: 15.5px;
+        color: var(--ink-soft);
+      }
+      .method strong { color: var(--ink); }
+
+      /* ---------- spotlight ---------- */
+      .spotlight {
+        margin-top: 26px;
+        background: var(--surface);
+        border: 2px solid var(--gold-bright);
+        border-radius: 14px;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+      .spotlight-band {
+        background: linear-gradient(160deg, var(--felt) 0%, var(--felt-deep) 100%);
+        color: #f4efe0;
+        padding: 20px 22px 18px;
+        display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end; justify-content: space-between;
+      }
+      .spotlight-band .kicker { font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-bright); margin-bottom: 4px; }
+      .spotlight-band h2 { font-family: "Playfair Display", Georgia, serif; font-size: clamp(26px, 5vw, 34px); margin: 0; line-height: 1.15; }
+      .spotlight-value { text-align: right; }
+      .spotlight-value .amount { font-family: "Playfair Display", Georgia, serif; font-size: 46px; font-weight: 800; color: var(--gold-bright); line-height: 1; }
+      .spotlight-value .amount-note { font-size: 13px; color: #cfd8c2; }
+      .spotlight-body { padding: 20px 22px 22px; }
+      .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+      .badge {
+        font-size: 12.5px; font-weight: 700; letter-spacing: 0.04em;
+        padding: 4px 10px; border-radius: 999px;
+        background: var(--chip); color: var(--ink);
+        border: 1px solid var(--line);
+      }
+      .badge.real { background: var(--felt); color: #f4efe0; border-color: var(--felt); }
+      .badge.verified { background: transparent; color: var(--ok); border-color: var(--ok); }
+      .what { font-size: 18px; margin: 0 0 16px; }
+      .what strong { color: var(--gold-ink); }
+
+      .code-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 18px; }
+      .code-label { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); }
+      .code-chip {
+        font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 19px; font-weight: 700; letter-spacing: 0.08em;
+        background: var(--chip); border: 1.5px dashed var(--gold-bright);
+        color: var(--ink); padding: 7px 14px; border-radius: 8px;
+      }
+      button.copy-btn, button.claimed-btn {
+        font: inherit; font-size: 14.5px; font-weight: 700;
+        border-radius: 8px; padding: 9px 14px; cursor: pointer;
+        border: 1px solid var(--line); background: var(--surface-2); color: var(--ink);
+      }
+      button.copy-btn:active, button.claimed-btn:active { transform: translateY(1px); }
+      button.claimed-btn[aria-pressed="true"] { background: var(--felt); color: #f4efe0; border-color: var(--felt); }
+
+      .cta-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 4px 0 20px; }
+      a.claim-btn {
+        display: inline-block; text-decoration: none;
+        background: var(--felt); color: var(--btn-ink);
+        font-weight: 700; font-size: 17px;
+        padding: 13px 22px; border-radius: 9px;
+      }
+      a.claim-btn:hover { background: var(--felt-deep); }
+      a.ghost-btn {
+        display: inline-block; text-decoration: none;
+        border: 1px solid var(--line); color: var(--ink);
+        font-weight: 600; font-size: 15.5px;
+        padding: 12px 18px; border-radius: 9px; background: var(--surface);
+      }
+
+      h3.subhead {
+        font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+        color: var(--ink-soft); margin: 22px 0 8px;
+      }
+      ol.steps { margin: 0; padding-left: 22px; }
+      ol.steps li { margin-bottom: 9px; }
+      ol.steps li::marker { font-weight: 700; color: var(--gold-ink); }
+      ul.terms { margin: 0; padding-left: 20px; }
+      ul.terms li { margin-bottom: 7px; }
+      .callout {
+        border-radius: 10px; padding: 13px 16px; margin: 16px 0 0; font-size: 15.5px;
+      }
+      .callout.warn { background: var(--warn-bg); border: 1px solid var(--warn-line); color: var(--warn-ink); }
+      .callout.bad { background: var(--bad-bg); border: 1px solid var(--bad-line); color: var(--bad-ink); }
+      .callout strong { display: block; margin-bottom: 2px; }
+      .sources-line { font-size: 13.5px; color: var(--ink-soft); margin-top: 16px; }
+      .sources-line a { color: var(--ink-soft); }
+
+      /* ---------- ranked cards ---------- */
+      section.ranked { margin-top: 38px; }
+      section.ranked > h2, section.flags > h2, section.checked > h2, section.all-sources > h2 {
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: clamp(24px, 4.5vw, 30px); margin: 0 0 6px;
+      }
+      .section-note { color: var(--ink-soft); margin: 0 0 20px; font-size: 15.5px; }
+      .card {
+        background: var(--surface); border: 1px solid var(--line);
+        border-radius: 12px; padding: 20px 22px; margin-bottom: 16px;
+        box-shadow: 0 2px 10px rgba(14, 50, 34, 0.05);
+      }
+      .card-top { display: flex; gap: 16px; align-items: flex-start; }
+      .rank-num {
+        font-family: "Playfair Display", Georgia, serif; font-weight: 800;
+        font-size: 30px; line-height: 1; color: var(--gold-ink);
+        border: 2px solid var(--gold-bright); border-radius: 10px;
+        padding: 8px 0; min-width: 52px; text-align: center; flex-shrink: 0;
+      }
+      .card-head { flex: 1; min-width: 0; }
+      .card-head h3 { margin: 0 0 2px; font-size: 21px; line-height: 1.25; }
+      .card-value { font-weight: 700; color: var(--gold-ink); font-size: 17px; }
+      .card-value .zero { color: var(--ink-soft); }
+      .card .what { font-size: 16.5px; margin-top: 12px; }
+      .fact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 8px 22px; margin: 4px 0 6px; }
+      .fact { font-size: 15px; }
+      .fact .k { display: block; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-soft); margin-bottom: 1px; }
+      .card .cta-row { margin-bottom: 0; margin-top: 14px; }
+      a.claim-btn.small { font-size: 15.5px; padding: 10px 18px; }
+      .countdown { font-weight: 700; color: var(--bad-ink); }
+
+      /* ---------- flags ---------- */
+      section.flags { margin-top: 40px; }
+      .flag-card {
+        border-radius: 12px; padding: 16px 20px; margin-bottom: 12px; font-size: 15.5px;
+      }
+      .flag-card h3 { margin: 0 0 4px; font-size: 18px; }
+      .flag-card p { margin: 0 0 6px; }
+      .flag-card.warn { background: var(--warn-bg); border: 1px solid var(--warn-line); color: var(--warn-ink); }
+      .flag-card.bad { background: var(--bad-bg); border: 1px solid var(--bad-line); color: var(--bad-ink); }
+      .flag-card .status-tag { font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+
+      /* ---------- checked list ---------- */
+      section.checked { margin-top: 40px; }
+      .checked-list { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 8px 22px; }
+      .checked-list li { margin: 10px 0; }
+      .checked-list ul { padding-left: 20px; margin: 0; }
+
+      /* ---------- sources ---------- */
+      section.all-sources { margin-top: 40px; }
+      section.all-sources ol { padding-left: 22px; font-size: 14.5px; color: var(--ink-soft); }
+      section.all-sources li { margin-bottom: 5px; overflow-wrap: anywhere; }
+
+      /* ---------- launch hub ---------- */
+      section.hub { margin-top: 28px; }
+      section.hub > h2 { font-family: "Playfair Display", Georgia, serif; font-size: clamp(24px, 4.5vw, 30px); margin: 0 0 6px; }
+      .hub-intro { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+      .hub-intro p { margin: 0 0 10px; }
+      .hub-intro p:last-child { margin-bottom: 0; }
+      .hub-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 14px; }
+      .leg { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+      .leg h3 { margin: 0 0 6px; font-size: 18px; line-height: 1.3; }
+      .leg .leg-tag { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase; padding: 3px 8px; border-radius: 999px; margin-bottom: 8px; }
+      .leg-tag.pays { background: var(--felt); color: #f4efe0; }
+      .leg-tag.needs { background: var(--warn-bg); color: var(--warn-ink); border: 1px solid var(--warn-line); }
+      .leg p { margin: 0 0 10px; font-size: 15.5px; color: var(--ink-soft); }
+      .leg p strong { color: var(--ink); }
+      .leg a.hub-link { font-weight: 700; font-size: 15.5px; }
+      .ad-slot {
+        margin-top: 14px; border: 1.5px dashed var(--gold-bright); border-radius: 12px;
+        background: var(--chip); padding: 18px; text-align: center; color: var(--ink-soft);
+      }
+      .ad-slot strong { display: block; color: var(--ink); font-size: 16px; margin-bottom: 4px; }
+      .ad-slot p { margin: 0; font-size: 14.5px; }
+      .link-bank { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 8px 20px 14px; margin-top: 14px; }
+      .link-bank h3, .hub-check h3 { font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-soft); margin: 16px 0 8px; }
+      .link-bank ul { margin: 0; padding-left: 20px; }
+      .link-bank li { margin-bottom: 8px; font-size: 15.5px; }
+      .link-bank li span { color: var(--ink-soft); }
+      .hub-check { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 4px 20px 16px; margin-top: 14px; }
+      .owner-list { list-style: none; margin: 0; padding: 0; }
+      .owner-list li { position: relative; padding: 9px 0 9px 30px; border-bottom: 1px solid var(--line); font-size: 15.5px; }
+      .owner-list li:last-child { border-bottom: 0; }
+      .owner-list li::before { content: ""; position: absolute; left: 2px; top: 13px; width: 14px; height: 14px; border: 2px solid var(--gold-bright); border-radius: 4px; }
+      .owner-list li strong { color: var(--ink); }
+      .stripe-slot { margin-top: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+      .stripe-slot h3 { margin: 0 0 6px; font-size: 18px; }
+      .stripe-slot p { margin: 0 0 10px; font-size: 15.5px; color: var(--ink-soft); }
+      .stripe-slot p strong { color: var(--ink); }
+      .btn-disabled {
+        display: inline-block; font-weight: 700; font-size: 15.5px; padding: 11px 18px; border-radius: 9px;
+        background: var(--surface-2); color: var(--ink-soft); border: 1px solid var(--line);
+      }
+
+      footer {
+        margin-top: 44px; border-top: 1px solid var(--line); padding-top: 18px;
+        font-size: 14.5px; color: var(--ink-soft);
+      }
+      footer .rg { font-weight: 700; color: var(--ink); }
+      @media (max-width: 560px) {
+        .spotlight-value { text-align: left; }
+        .card { padding: 16px; }
+        .spotlight-body { padding: 16px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="masthead-inner">
+        <h1>No-Deposit Casino Offers, Ranked Most to Least</h1>
+        <p class="lede">Every confirmed offer you can claim in Pennsylvania with no deposit and no purchase — free bonus cash, free spins, and free sweepstakes coins — sorted by guaranteed redeemable value.</p>
+        <div class="meta-row">
+          <span><strong>Checked:</strong> Thursday, November 12, 2026</span>
+          <span><strong>Scope:</strong> PA-licensed real-money casinos + sweepstakes casinos open in PA</span>
+          <span><strong>21+</strong> for real-money play</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <div class="method">
+        <strong>How the ranking works:</strong> offers are ranked by <strong>guaranteed redeemable free value at sign-up</strong> — real-money bonus dollars at face value, Sweeps Coins (SC) at $1 each, Fortune Coins (FC) at 100 FC = $1. Gold Coins and WOW Coins have <strong>no cash value</strong>, so they never move an offer up the list — they're shown for play volume only. Ties break by how directly the credit can become a withdrawal. Chance-based prizes with $0 guaranteed rank last, however big the headline prize. Where sources conflict, the conflict is flagged on the card rather than smoothed over.
+      </div>
+
+      <!-- ================= LAUNCH & MONEY HUB ================= -->
+      <section class="hub" id="launch-hub">
+        <h2>Launch &amp; money hub — for the owner</h2>
+        <p class="section-note">Everything you asked for in one place: GitHub, Play Store, ads, Stripe, and the daily update — with the honest order they have to happen in.</p>
+
+        <div class="hub-intro">
+          <p><strong>The straight version:</strong> this page is ready to copy to GitHub and publish as a website today. The money does <strong>not</strong> all come through Stripe, and no ad check arrives until the accounts below are opened in your name and approved.</p>
+          <p><strong>Daily AI update:</strong> an agent can re-check every offer each morning and draft the changes — that draft still needs your one-tap approval before it goes live. Offers moved and contradicted each other in a single day of research for this list (see the Fortune Wins card below), so publishing unchecked would put wrong offers out under your name. Your job shrinks to one glance a day, not zero.</p>
+          <p><strong>Play Store reality check:</strong> Google Play only allows real-money gambling apps from licensed operators who complete Google's gambling application. A directory whose buttons invite people to register and wager at real-money casinos can be rejected for facilitating gambling if you are not the licensed operator. The safer launch is this page as a web app first; treat Play as a later step and read the policy before paying the fee.</p>
+        </div>
+
+        <div class="hub-grid">
+          <div class="leg">
+            <span class="leg-tag pays">Main money leg</span>
+            <h3>1 · Casino affiliate commissions</h3>
+            <p>This is how ranked casino lists actually get paid: <strong>the casinos pay you directly</strong> — a flat fee per new depositing player or a share of revenue — when someone signs up through <strong>your personal tracking link</strong>. The Claim buttons above currently point to each casino's homepage. Once a program approves you, each button gets swapped to your tracking link for that casino.</p>
+            <p>Start with the operator you rank #1: <a class="hub-link" href="https://betmgm.com" target="_blank" rel="noopener">BetMGM</a> — apply to each casino's affiliate program (Caesars' is at <a class="hub-link" href="https://www.caesars.com/affiliate/faq" target="_blank" rel="noopener">caesars.com/affiliate/faq</a>) separately, in your own name, and keep the approval emails — payouts go to the bank/tax details on that application, not through this page.</p>
+          </div>
+
+          <div class="leg">
+            <span class="leg-tag needs">Needs your approval first</span>
+            <h3>2 · Display ads — AdSense (web) / AdMob (app)</h3>
+            <p>Ads pay through <strong>Google, by bank transfer</strong> — not Stripe — after you pass Google's review and reach the payment threshold. Gambling-related pages face extra ad restrictions, so approval is not guaranteed; affiliate income above is the leg to build first.</p>
+            <p><a class="hub-link" href="https://adsense.google.com/start/" target="_blank" rel="noopener">Start AdSense signup →</a> · <a class="hub-link" href="https://support.google.com/adsense/answer/7402253?hl=en-GB" target="_blank" rel="noopener">How AdSense accounts are created →</a></p>
+            <p style="margin-bottom:0;">For a future native app version, the same Google account path is AdMob: <a class="hub-link" href="https://admob.google.com" target="_blank" rel="noopener">admob.google.com →</a> · <a class="hub-link" href="https://support.google.com/admob/answer/15948559" target="_blank" rel="noopener">AdMob getting-started guide →</a></p>
+          </div>
+
+          <div class="leg">
+            <span class="leg-tag needs">Only if you sell something</span>
+            <h3>3 · Subscriptions — Stripe</h3>
+            <p>Stripe is a <strong>checkout for your own product</strong> — for example a paid “new offers alert” tier. It does not collect ad money or affiliate commissions. Stripe will ask for your legal identity, tax ID, and bank account; that step can only be done by you.</p>
+            <p style="margin-bottom:0;"><a class="hub-link" href="https://dashboard.stripe.com/register" target="_blank" rel="noopener">Create your Stripe account →</a> · <a class="hub-link" href="https://docs.stripe.com/no-code/payment-links?locale=en-GB" target="_blank" rel="noopener">Stripe Payment Links (no-code subscriptions) →</a></p>
+          </div>
+        </div>
+
+        <div class="ad-slot" aria-label="Advertisement placeholder">
+          <strong>Ad space — web (AdSense)</strong>
+          <p>This box marks exactly where the AdSense ad unit goes. Paste Google's ad code here only after your AdSense account is approved — until then it stays empty on purpose, so no visitor sees a broken or fake ad.</p>
+        </div>
+        <div class="ad-slot" aria-label="Advertisement placeholder for app version">
+          <strong>Ad space — app (AdMob)</strong>
+          <p>Reserved position for a banner ad unit in a future app build. It activates with your AdMob app ID and ad unit ID after AdMob approval; there is nothing to click here yet.</p>
+        </div>
+
+        <div class="stripe-slot">
+          <h3>Premium tier via Stripe — slot ready, checkout not live</h3>
+          <p>When your Stripe account is active, create a <strong>Payment Link</strong> for the subscription in the Stripe Dashboard (no code needed) and this button becomes that link. Until you paste a real Payment Link in, there is <strong>no checkout and nothing is charged</strong>.</p>
+          <span class="btn-disabled">Join Premium — add your Stripe Payment Link to activate</span>
+        </div>
+
+        <div class="link-bank">
+          <h3>All the links you need — send these wherever they need to go</h3>
+          <ul>
+            <li><strong>GitHub — sign up:</strong> <a href="https://github.com/signup" target="_blank" rel="noopener">github.com/signup</a> <span>— your GitHub is not connected yet; this account is step 1 for everything below.</span></li>
+            <li><strong>GitHub — create the repo:</strong> <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository" target="_blank" rel="noopener">GitHub Docs: Creating a new repository</a> <span>— name it <em>no-deposit-casino-offers</em>, then upload this page's <em>index.html</em> (and the <em>assets</em> folder, if any).</span></li>
+            <li><strong>GitHub — publish it as a live website free:</strong> <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener">GitHub Docs: What is GitHub Pages?</a> <span>— in the repo: Settings → Pages → Deploy from branch. This is your public link to share and to give to affiliate programs and AdSense.</span></li>
+            <li><strong>Google Play Console:</strong> <a href="https://play.google.com/console" target="_blank" rel="noopener">play.google.com/console</a> <span>— sign in with the Google account that will own the app, create a developer account, verify your ID, and pay Google's one-time $25 registration fee. New personal accounts also have to run a closed test before production.</span></li>
+            <li><strong>Google Play — gambling policy (read before submitting):</strong> <a href="https://support.google.com/googleplay/android-developer/answer/9877032?hl=en" target="_blank" rel="noopener">Play policy: Real-Money Gambling, Games, and Contests</a> <span>— licensed operators only, gambling application required, Adults Only rating, responsible-gambling info required.</span></li>
+            <li><strong>Google AdSense:</strong> <a href="https://adsense.google.com/start/" target="_blank" rel="noopener">adsense.google.com/start</a> <span>— web display ads; you will enter this site's published URL during signup.</span></li>
+            <li><strong>Google AdMob:</strong> <a href="https://admob.google.com" target="_blank" rel="noopener">admob.google.com</a> <span>— in-app ads, only relevant once there is a native app build.</span></li>
+            <li><strong>Stripe:</strong> <a href="https://dashboard.stripe.com/register" target="_blank" rel="noopener">dashboard.stripe.com/register</a> <span>— then Dashboard → Payment Links → New, to create the subscription link for the slot above.</span></li>
+          </ul>
+        </div>
+
+        <div class="hub-check">
+          <h3>Owner checklist — the order that works</h3>
+          <ul class="owner-list">
+            <li><strong>Create your GitHub account</strong> (link above), then create the <em>no-deposit-casino-offers</em> repo and upload <em>index.html</em>.</li>
+            <li><strong>Turn on GitHub Pages</strong> in that repo so the list has a live public web address.</li>
+            <li><strong>Apply to casino affiliate programs</strong> using that live address; as each approval lands, replace that casino's Claim button with your tracking link.</li>
+            <li><strong>Apply for AdSense</strong> with the same live address; after approval, paste the ad code into the marked ad space above.</li>
+            <li><strong>Open Stripe only if you will sell a premium tier;</strong> create a Payment Link and swap the disabled button above for it.</li>
+            <li><strong>Each morning, approve the AI draft:</strong> the agent re-checks offers and proposes changes — you tap approve, then the updated page is what gets pushed to GitHub.</li>
+            <li><strong>Play Store last:</strong> open Play Console, read the gambling policy first, and expect the web version to be the launch — a Play listing for a gambling link directory is Google's call, not a guarantee.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ================= #1 SPOTLIGHT ================= -->
+      <article class="spotlight" id="betmgm">
+        <div class="spotlight-band">
+          <div>
+            <div class="kicker">#1 · Claim this first</div>
+            <h2>BetMGM Casino PA</h2>
+          </div>
+          <div class="spotlight-value">
+            <div class="amount">$25</div>
+            <div class="amount-note">free casino bonus · no deposit</div>
+          </div>
+        </div>
+        <div class="spotlight-body">
+          <div class="badges">
+            <span class="badge real">Real-money · PA-licensed</span>
+            <span class="badge verified">✓ Verified Nov 12, 2026 on BetMGM's own PA promotions page</span>
+            <span class="badge">21+ · Pennsylvania only</span>
+            <span class="badge">No code needed</span>
+          </div>
+          <p class="what">You get a <strong>$25 Casino Bonus</strong> with <strong>no deposit required to receive it</strong> — credited after you register and your account is verified, playable on <strong>slots only</strong> at <strong>1x wagering</strong>. The same welcome offer also includes a <strong>100% first-deposit match up to $1,000</strong> if you later choose to deposit (minimum $10 deposit, 15x wagering on the match).</p>
+
+          <p style="margin:0 0 18px; font-size:15.5px;"><strong>No promo code required</strong> — register, verify your account, and opt in to the welcome offer after registering.</p>
+
+          <div class="cta-row">
+            <a class="claim-btn" href="https://casino.betmgm.com/en/blog/casino-bonuses-promotions/" target="_blank" rel="noopener">Claim the $25 at BetMGM →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p style="margin:0 0 4px; font-size:15px; color:var(--ink-soft);">The link opens BetMGM's own promotions page — you complete registration and the identity verification yourself (name, date of birth, ID details), because the casino has to verify the account is really yours.</p>
+
+          <h3 class="subhead">Exact claim steps</h3>
+          <ol class="steps">
+            <li>Register a new BetMGM Casino account — you must be <strong>21+</strong> and in <strong>Pennsylvania</strong> — and complete the account verification.</li>
+            <li><strong>Opt in to the welcome offer after registering.</strong> No promo code is required.</li>
+            <li><strong>What triggers the credit:</strong> the $25 Casino Bonus is credited after registration and account verification. No deposit is needed to receive it.</li>
+            <li><strong>Using it:</strong> play <strong>slots only</strong> and meet the <strong>1x wagering</strong> requirement. The bonus is available for <strong>3 days after registration</strong>, and you have <strong>7 days to complete the wagering</strong>.</li>
+          </ol>
+
+          <h3 class="subhead">Key terms</h3>
+          <ul class="terms">
+            <li><strong>Wagering:</strong> 1x on the $25 bonus, slots only.</li>
+            <li><strong>Timing:</strong> the $25 bonus is available for 3 days after registration, with 7 days to complete the wagering.</li>
+            <li><strong>Promo period:</strong> the promotion runs through December 31, 2026.</li>
+            <li><strong>Also in this welcome offer:</strong> a 100% first-deposit match up to $1,000 — minimum $10 deposit, 15x wagering on the match.</li>
+          </ul>
+
+          <div class="callout warn">
+            <strong>⚠ Withdrawal caveat — read this before you count the $25 as cash</strong>
+            Winnings from the $25 bonus <strong>cannot be withdrawn until you have made a deposit and met the 1x wagering requirement</strong>. The $25 is genuinely no-deposit to <em>receive and play</em>; a deposit, made later, is required before <em>cashing out</em> any winnings from it.
+          </div>
+
+          <p class="sources-line">Source: <a href="https://casino.betmgm.com/en/blog/casino-bonuses-promotions/" target="_blank" rel="noopener">BetMGM Casino PA promotions page (operator)</a> — verified November 12, 2026. This offer was previously flagged on this page as unconfirmed; it is now verified on the operator's own Pennsylvania promotions page and ranked.</p>
+        </div>
+      </article>
+
+      <!-- ================= RANKED LIST ================= -->
+      <section class="ranked">
+        <h2>The full ranked list</h2>
+        <p class="section-note">Ranks 2–13. Caesars is the other PA-licensed real-money casino with a true no-deposit bonus; after that, the confirmed offers are sweepstakes casinos — no purchase is ever required, and their Sweeps/Fortune Coins redeem for cash prizes once you clear the playthrough and the redemption minimum on each card.</p>
+
+        <!-- #2 -->
+        <article class="card" id="caesars">
+          <div class="card-top">
+            <div class="rank-num">2</div>
+            <div class="card-head">
+              <h3>Caesars Palace Online Casino</h3>
+              <div class="card-value">$10 free bonus · no deposit</div>
+              <div class="badges" style="margin-top:8px;">
+                <span class="badge real">Real-money · PA-licensed</span>
+                <span class="badge verified">✓ Verified live on Caesars' own PA site, Oct 27, 2026</span>
+                <span class="badge">21+</span>
+              </div>
+            </div>
+          </div>
+          <p class="what">You get a <strong>$10 No Deposit Casino Bonus</strong>, credited <strong>immediately after successful registration</strong>, playable on <strong>select slot games only</strong>. SportsLine (updated Oct 26, 2026) calls Caesars "currently the only state-licensed and regulated online casino offering a true no deposit bonus" — every other PA-licensed casino below requires a deposit or a wager first.</p>
+          <div class="code-row">
+            <span class="code-label">Promo code</span>
+            <span class="code-chip" id="code-caesars">WELCOME</span>
+            <button class="copy-btn" type="button" data-copy="WELCOME">Copy code</button>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://caesarspalaceonline.com/pa" target="_blank" rel="noopener">Claim the $10 at Caesars →</a>
+            <a class="ghost-btn" href="https://caesarspalaceonline.com/pa/promo-details" target="_blank" rel="noopener">Official promo terms</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p style="margin:0 0 4px; font-size:15px; color:var(--ink-soft);">The link opens Caesars' Pennsylvania page with everything ready — you complete the one identity screen yourself (name, date of birth, ID details), because the casino has to verify the account is really yours.</p>
+          <h3 class="subhead">Exact claim steps</h3>
+          <ol class="steps">
+            <li>Open <strong>caesarspalaceonline.com/pa</strong> (or the Caesars Palace Online Casino app) and leave the state selector set to <strong>Pennsylvania</strong>.</li>
+            <li>Tap <strong>Join Now</strong> and complete the registration form. You must be 21+, physically in Pennsylvania when wagering, opening your <strong>first</strong> Caesars Palace iCasino account, and an active Caesars Rewards member (free — it's part of sign-up). Existing Caesars Sportsbook &amp; Casino or Horseshoe Online Casino account holders are not eligible.</li>
+            <li><strong>Enter the code in the promo code field during account opening — before you submit the registration.</strong> The code on Caesars' own PA promo page is <strong>WELCOME</strong>. The official terms require an eligible code at account opening; there is no way to add it afterward. (Affiliate links pre-fill their own equivalent codes — SLINELAUNCH, PLAYPALAUNCH, ROTOCASLAUNCH, ACTIONLAUNCH — any one eligible code works, codes can't be stacked, and using one makes you ineligible for other Caesars/Horseshoe new-player offers.)</li>
+            <li><strong>What triggers the credit:</strong> finishing registration <em>with the code entered</em> and passing ID verification. Per the official terms: "You will receive your $10 registration No Deposit Casino Bonus immediately after successful registration." No deposit and no wager triggers it.</li>
+            <li><strong>Using it:</strong> play select slot games and <strong>wager $10 in total (1x) within 7 days</strong> of registration to release the bonus to your withdrawable balance. Miss the 7 days and the bonus is forfeited.</li>
+          </ol>
+          <h3 class="subhead">Key terms</h3>
+          <ul class="terms">
+            <li><strong>Wagering:</strong> 1x on select slots ($10 total). Trackers listing 2x video poker / 5x other games are describing other Caesars bonus types — the official PA terms for this $10 specify select slots at 1x only.</li>
+            <li><strong>Maximum cashable:</strong> no maximum cashout cap is stated in the official PA terms as read.</li>
+            <li><strong>Expiry:</strong> 7 days from registration to complete the wagering.</li>
+            <li><strong>Promo period:</strong> listed month-by-month, including October 1–31, 2026, continuing through December 31, 2026.</li>
+          </ul>
+          <div class="callout warn">
+            <strong>⚠ Withdrawal caveat — read this before you count the $10 as cash</strong>
+            Official terms §11: "You must have made at least one cash deposit before you can withdraw your bonus or any winnings" from it. The $10 is genuinely no-deposit to <em>receive and play</em>; a deposit of any amount, made later, is required before <em>cashing out</em>.
+          </div>
+          <p class="sources-line">Sources: <a href="https://caesarspalaceonline.com/pa" target="_blank" rel="noopener">Caesars Palace Online PA (operator)</a> · <a href="https://caesarspalaceonline.com/pa/promo-details" target="_blank" rel="noopener">Caesars PA promo details (operator)</a> · <a href="https://www.sportsline.com/casinos/best-no-deposit-bonus-casino-offers-to-try-this-week/" target="_blank" rel="noopener">SportsLine, Oct 26, 2026</a> · <a href="https://www.actionnetwork.com/casino/bonuses/caesars-casino-no-deposit-bonus" target="_blank" rel="noopener">Action Network, verified Oct 27, 2026</a></p>
+        </article>
+
+        <!-- #3 -->
+        <article class="card" id="fortune-wins">
+          <div class="card-top">
+            <div class="rank-num">3</div>
+            <div class="card-head">
+              <h3>Fortune Wins <span style="color:var(--ink-soft); font-weight:600;">(formerly Fortune Coins)</span></h3>
+              <div class="card-value">≈ $10 face value in FC · 1,000 FC — ties Caesars on headline value, but task-gated and not cashable on its own (see below)</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes</span><span class="badge">18+</span><span class="badge">No code needed</span></div>
+            </div>
+          </div>
+          <p class="what">You get <strong>630,000 Gold Coins + 1,000 Fortune Coins</strong> (≈ $10, since 100 FC = $1). It ties Caesars on headline value but ranks second: the full 1,000 FC is <strong>task-gated</strong> behind registration plus verification/onboarding steps, and the redemption minimum means the sign-up grant alone can't be cashed out. Day-1 daily login adds 300,000 GC + 100 FC.</p>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span>1x per GamingAmerica — <em>conflict:</em> Insider Gaming says the standard is 2x and can vary by game</div>
+            <div class="fact"><span class="k">Min. redemption</span><em>Conflict:</em> 5,000 FC ($50) per GamingAmerica vs. a 50 FC minimum per Insider Gaming</div>
+            <div class="fact"><span class="k">Expiry</span>FC expire after 60 days</div>
+            <div class="fact"><span class="k">Other</span>Daily redemption cap 955,000 FC ($9,550) per GamingAmerica · Operator: Social Gaming LLC · PA listed as available</div>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://fortunewins.com/" target="_blank" rel="noopener">Claim at Fortune Wins →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: <a href="https://gamingamerica.com/gambling-sites/fortune-coins" target="_blank" rel="noopener">GamingAmerica, updated Oct 25, 2026</a> · <a href="https://insider-gaming.com/sweepstakes-casinos/fortune-coins-legal-states/" target="_blank" rel="noopener">Insider Gaming, Oct 2026</a></p>
+        </article>
+
+        <!-- #4 -->
+        <article class="card" id="sportzino">
+          <div class="card-top">
+            <div class="rank-num">4</div>
+            <div class="card-head">
+              <h3>Sportzino</h3>
+              <div class="card-value">Up to $7 value · up to 7 SC — staged across sign-up tasks, not a lump sum</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes + social sportsbook</span><span class="badge">18+</span><span class="badge">PA available</span><span class="badge">No code needed</span></div>
+            </div>
+          </div>
+          <p class="what">You can earn up to <strong>170,000 Gold Coins + 7 Sweeps Coins</strong> with no purchase — but it is <strong>not paid all at once</strong>. The package unlocks in pieces as you complete free onboarding tasks: account registration (20,000 GC + 1 SC), account and phone verification, connecting social accounts, opting into notifications, and your first daily login. Registration alone pays 20,000 GC + 1 SC; the full 7 SC requires finishing the task list. Daily logins after that pay 20,000 GC + 1 SC.</p>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span><em>Conflict:</em> 1x per Sportzino's own guide, Insider Gaming and SweepsGrade (verified Oct 28, 2026) vs. 2x per WIN.gg and TheSpike</div>
+            <div class="fact"><span class="k">Min. redemption</span><em>Conflict:</em> 50 SC per most sources checked — WIN.gg breaks it out as 50 SC for non-cash prizes but 100 SC for cash redemptions</div>
+            <div class="fact"><span class="k">Operator</span>SSPS LLC · sweepstakes casino + social sportsbook, launched 2023 · ID verification (KYC) required before any redemption</div>
+            <div class="fact"><span class="k">PA status</span>PA is listed as available in the state lists checked Nov 7, 2026</div>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://sportzino.com/" target="_blank" rel="noopener">Claim at Sportzino →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: <a href="https://www.casino.org/us/sweepstakes-casinos/sportzino/" target="_blank" rel="noopener">Casino.org</a> · <a href="https://sportzino.com/blog/how-to-claim-a-no-deposit-sweeps-coins-bonus/" target="_blank" rel="noopener">Sportzino (operator guide)</a> · <a href="https://www.sweepsgrade.com/casinos/sportzino/" target="_blank" rel="noopener">SweepsGrade, verified Oct 28, 2026</a> · <a href="https://win.gg/reviews/sportzino/promo-code/" target="_blank" rel="noopener">WIN.gg</a> — checked Nov 7, 2026</p>
+        </article>
+
+        <!-- #5 -->
+        <article class="card" id="wow-vegas">
+          <div class="card-top">
+            <div class="rank-num">5</div>
+            <div class="card-head">
+              <h3>WOW Vegas</h3>
+              <div class="card-value">$5 guaranteed value · 5 SC</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes</span><span class="badge">18+</span><span class="badge">PA available</span></div>
+            </div>
+          </div>
+          <p class="what">You get <strong>250,000 WOW Coins + 5 Sweeps Coins</strong>, paid across your first 3 days — you must log in each day: <strong>Day 1:</strong> 150,000 WOW Coins + 3 SC · <strong>Day 2:</strong> 50,000 + 1 SC · <strong>Day 3:</strong> 50,000 + 1 SC. After that, daily logins pay 1,500 WOW Coins + 0.3 SC, and a mail-in request is worth 3 SC.</p>
+          <div class="code-row">
+            <span class="code-label">Promo code</span>
+            <span class="code-chip">WOWBONUS</span>
+            <button class="copy-btn" type="button" data-copy="WOWBONUS">Copy code</button>
+          </div>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span>1x on SC</div>
+            <div class="fact"><span class="k">Min. redemption</span>50 SC cash / 20 SC gift card per GamingAmerica — <em>note:</em> a Legal Sports Report comparison table elsewhere says 100 SC</div>
+            <div class="fact"><span class="k">Expiry</span><em>Conflict:</em> LSR lists the bonus as expiring <strong>Oct 31, 2026</strong> <span class="countdown" id="wow-countdown"></span>; GamingToday says coins never expire. Safe move: claim the 3-day welcome within October.</div>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://wowvegas.com/" target="_blank" rel="noopener">Claim at WOW Vegas →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: <a href="https://www.legalsportsreport.com/sweepstakes-casinos/wow-vegas/promo-code/" target="_blank" rel="noopener">Legal Sports Report, verified Oct 27, 2026</a> · <a href="https://gamingamerica.com/gambling-sites/wow-vegas" target="_blank" rel="noopener">GamingAmerica, updated Oct 26, 2026</a></p>
+        </article>
+
+        <!-- #6 -->
+        <article class="card" id="myprize">
+          <div class="card-top">
+            <div class="rank-num">6</div>
+            <div class="card-head">
+              <h3>MyPrize.us</h3>
+              <div class="card-value">$5 guaranteed value · 5 SC — ties WOW Vegas at #5 on value</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes</span><span class="badge">18+</span><span class="badge">PA available</span><span class="badge">No code needed</span></div>
+            </div>
+          </div>
+          <p class="what">You get <strong>50,000 Gold Coins + 5 Sweeps Coins</strong> on sign-up, credited automatically once you register and verify your email — no purchase and no promo code needed for the free grant. The 5 SC figure is consistent across every source checked; what varies by source is the partner code attached to the separate, optional first-purchase bonus, which does not change the free grant.</p>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span>1x on SC</div>
+            <div class="fact"><span class="k">Min. redemption</span><em>Conflict:</em> 100 SC for cash per Legal Sports Report, Bonus.com and Covers — a 10 SC gift-card figure appears in one comparison, while LSR says MyPrize offers cash redemption only, no gift cards</div>
+            <div class="fact"><span class="k">Promo code</span>None for the no-purchase grant — partner codes for the optional first-purchase bonus vary by source (e.g. SPORTSGRID via SportsGrid, PLAYBONUS via Bonus.com)</div>
+            <div class="fact"><span class="k">PA status</span>PA is not among the excluded states in the lists checked Nov 7, 2026, so PA players can claim</div>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://myprize.us/" target="_blank" rel="noopener">Claim at MyPrize.us →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: <a href="https://www.sportsgrid.com/social-casinos/myprize-us-review" target="_blank" rel="noopener">SportsGrid</a> · <a href="https://www.legalsportsreport.com/sweepstakes-casinos/myprize/" target="_blank" rel="noopener">Legal Sports Report, updated Nov 2, 2026</a> · <a href="https://www.bonus.com/sweepstakes-casinos/myprize/" target="_blank" rel="noopener">Bonus.com, updated Nov 1, 2026</a> — all checked Nov 7, 2026</p>
+        </article>
+
+        <!-- #7 -->
+        <article class="card" id="mcluck">
+          <div class="card-top">
+            <div class="rank-num">7</div>
+            <div class="card-head">
+              <h3>McLuck</h3>
+              <div class="card-value">$2.50 guaranteed value · 2.5 SC</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes</span><span class="badge">21+</span><span class="badge">PA available</span></div>
+            </div>
+          </div>
+          <p class="what">You get <strong>7,500 Gold Coins + 2.5 Sweeps Coins</strong> on sign-up. Daily logins start at 1,500 GC + 0.20 SC and rise with consecutive days. New players only for the sign-up grant.</p>
+          <div class="code-row">
+            <span class="code-label">Promo code</span>
+            <span class="code-chip">PLAYBONUS</span>
+            <button class="copy-btn" type="button" data-copy="PLAYBONUS">Copy code</button>
+            <span style="font-size:13.5px; color:var(--ink-soft);">via PlayPennsylvania's link — Casino.org says no code is required for the standard grant, so this is partner-dependent</span>
+          </div>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span>1x on SC</div>
+            <div class="fact"><span class="k">Min. redemption</span>75 SC for cash / 10 SC for gift cards</div>
+            <div class="fact"><span class="k">Expiry</span>No SC expiry could be verified</div>
+          </div>
+          <div class="callout warn">
+            <strong>⚠ Amount conflict</strong>
+            McLuck's own help centre / Sweeps Rules, as reviewed Oct 27, 2026 by SweepsDuke, list <strong>5,000 GC</strong> as the welcome reward plus <strong>up to 3.55 SC over the first three days</strong> of logins, rather than a flat 7,500 GC + 2.5 SC. Expect something in the 2.5–3.55 SC range depending on verification and logins.
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://mcluck.com/" target="_blank" rel="noopener">Claim at McLuck →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: <a href="https://www.playpennsylvania.com/sweepstakes/mcluck/" target="_blank" rel="noopener">PlayPennsylvania, updated Oct 2026</a> · <a href="https://www.casino.org/us/sweepstakes-casinos/mcluck/" target="_blank" rel="noopener">Casino.org</a> · <a href="https://sweepsduke.com/casino/mcluck/" target="_blank" rel="noopener">SweepsDuke, updated Oct 27, 2026</a></p>
+        </article>
+
+        <!-- #8 -->
+        <article class="card" id="lonestar">
+          <div class="card-top">
+            <div class="rank-num">8</div>
+            <div class="card-head">
+              <h3>LoneStar Casino</h3>
+              <div class="card-value">$2.50 guaranteed value · 2.5 SC — ties McLuck at #7 on value</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes</span><span class="badge">18+</span><span class="badge">PA eligible</span><span class="badge">No code needed</span><span class="badge verified">✓ Verified Nov 12, 2026</span></div>
+            </div>
+          </div>
+          <p class="what">You get <strong>100,000 Gold Coins + 2.5 Sweeps Coins</strong> on sign-up — no promo code and no purchase required. Email and phone verification are required to claim.</p>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span>1x on SC</div>
+            <div class="fact"><span class="k">Min. redemption</span>45 SC for gift cards / 100 SC for cash</div>
+            <div class="fact"><span class="k">Expiry</span>Coins expire after 60 days of account inactivity</div>
+            <div class="fact"><span class="k">Verification</span>Email and phone verification required</div>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://lonestarcasino.com/" target="_blank" rel="noopener">Claim at LoneStar →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: PlayUSA · Casino.org · Bonus.com — verified November 12, 2026</p>
+        </article>
+
+        <!-- #9 -->
+        <article class="card" id="spree">
+          <div class="card-top">
+            <div class="rank-num">9</div>
+            <div class="card-head">
+              <h3>Spree Casino</h3>
+              <div class="card-value">$2.50 guaranteed value · 2.5 SC — ties McLuck and LoneStar on value</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes</span><span class="badge">18+</span><span class="badge">PA eligible</span><span class="badge">No code needed</span><span class="badge verified">✓ Verified Nov 12, 2026</span></div>
+            </div>
+          </div>
+          <p class="what">You get <strong>25,000 Gold Coins + 2.5 Spree Coins</strong> on sign-up — no promo code and no purchase required. Spree Coins are Spree's sweepstakes coins, redeemable for prizes after the playthrough.</p>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span>1x on SC</div>
+            <div class="fact"><span class="k">Min. redemption</span>Gift cards from 10 SC (no cash redemption minimum was verified)</div>
+            <div class="fact"><span class="k">PA status</span>Pennsylvania eligible</div>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://spree.com/" target="_blank" rel="noopener">Claim at Spree →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: PlayUSA · Bonus.com · Casino.org · Deadspin — verified November 12, 2026</p>
+        </article>
+
+        <!-- #10 -->
+        <article class="card" id="pulsz">
+          <div class="card-top">
+            <div class="rank-num">10</div>
+            <div class="card-head">
+              <h3>Pulsz</h3>
+              <div class="card-value">$2.30 guaranteed value · 2.3 SC</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes</span><span class="badge">21+</span><span class="badge">PA legal</span></div>
+            </div>
+          </div>
+          <p class="what">You get <strong>5,000 Gold Coins + 2.3 Sweeps Coins</strong> on sign-up. A 7-day daily-login streak totals 18,300 GC + 6.4 SC, and a handwritten mail-in request is reported at 5 SC — though Casino.org warns mail-in SC "can take up to three months."</p>
+          <div class="code-row">
+            <span class="code-label">Partner codes</span>
+            <span class="code-chip">CORGBONUS</span>
+            <button class="copy-btn" type="button" data-copy="CORGBONUS">Copy</button>
+            <span class="code-chip">BONUSPLAY</span>
+            <button class="copy-btn" type="button" data-copy="BONUSPLAY">Copy</button>
+            <span style="font-size:13.5px; color:var(--ink-soft);">Legal Sports Report says no code is required for the standard welcome offer — treat these as partner-link variants of the same grant</span>
+          </div>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span>1x</div>
+            <div class="fact"><span class="k">Min. redemption</span>100 SC cash / 10 SC gift cards</div>
+            <div class="fact"><span class="k">Expiry</span>SC expire 60 days after issuance</div>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://pulsz.com/" target="_blank" rel="noopener">Claim at Pulsz →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: <a href="https://www.casino.org/us/bonus/pulsz/" target="_blank" rel="noopener">Casino.org, Oct 2026</a> · <a href="https://www.legalsportsreport.com/sweepstakes-casinos/pulsz/" target="_blank" rel="noopener">Legal Sports Report, updated Oct 2026</a> · <a href="https://www.sportsgrid.com/social-casinos/pulsz-legal-states" target="_blank" rel="noopener">SportsGrid</a></p>
+        </article>
+
+        <!-- #11 -->
+        <article class="card" id="chumba">
+          <div class="card-top">
+            <div class="rank-num">11</div>
+            <div class="card-head">
+              <h3>Chumba Casino</h3>
+              <div class="card-value">$2 guaranteed value · 2 SC</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes</span><span class="badge">21+</span><span class="badge">PA available</span><span class="badge">No code needed</span></div>
+            </div>
+          </div>
+          <p class="what">You get <strong>2,000,000 Gold Coins + 2 free Sweeps Coins</strong> on sign-up — no promo code and no purchase required. Chumba is now a <strong>full Pennsylvania offer</strong>: the Sweeps Coins play and redeem in PA, not Gold-Coin-only fun play.</p>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span>1x on Sweeps Coins</div>
+            <div class="fact"><span class="k">Min. redemption</span>100 SC for cash · gift cards from about 10 SC</div>
+            <div class="fact"><span class="k">Expiry</span>Sweeps Coins expire 60 days after last login</div>
+            <div class="fact"><span class="k">Promo code</span>None — no purchase required</div>
+          </div>
+          <div class="callout warn">
+            <strong>PA status note</strong>
+            Chumba's own current Sweeps Rules (v27.0, Oct 30, 2026) and Terms (v28.0) do not bar Pennsylvania from prize play, though a few tracker sites still list PA as Gold-Coin-only.
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://chumbacasino.com/" target="_blank" rel="noopener">Claim at Chumba →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: <a href="https://www.vegasinsider.com/sweepstakes-casinos/chumba/" target="_blank" rel="noopener">VegasInsider, updated Oct 27, 2026</a> · <a href="https://www.casinojournal.com/sweepstakes-casinos" target="_blank" rel="noopener">CasinoJournal, offers checked Oct 23, 2026</a></p>
+        </article>
+
+        <!-- #12 -->
+        <article class="card" id="global-poker">
+          <div class="card-top">
+            <div class="rank-num">12</div>
+            <div class="card-head">
+              <h3>Global Poker</h3>
+              <div class="card-value"><span class="zero">$0 SC at sign-up</span> · free SC comes from daily bonuses &amp; entry requests</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge">Sweepstakes</span><span class="badge">21+</span><span class="badge">PA: full SC play</span></div>
+            </div>
+          </div>
+          <p class="what">Registration credits <strong>5,000 Gold Coins only</strong> (another 100,000 GC comes with ID verification — still GC, no cash value). The PA-redeemable free SC comes two ways: the <strong>daily bonus for verified accounts</strong> (Day 1: 1,000 GC + 0.25 SC, rising over a 7-day streak to 1 SC on Day 7), and the online <strong>"Play for Free" entry request — 5 SC per valid request</strong> (handwrite the revealed code on a 4×6 card and photograph it in the app; this has replaced postal mail-in).</p>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Playthrough</span>1x before redemption — the Sweeps Rules reserve the right to require up to 20x</div>
+            <div class="fact"><span class="k">Min. redemption</span>50 SC</div>
+            <div class="fact"><span class="k">Expiry</span>SC expire 60 days after your last login</div>
+            <div class="fact"><span class="k">PA status</span>PA is in neither Global Poker's no-access list nor its Gold-Coin-only list, so PA players get full Sweeps Coin play (CasinoJournal, rules checked Oct 23, 2026)</div>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://globalpoker.com/" target="_blank" rel="noopener">Claim at Global Poker →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: <a href="https://www.casinojournal.com/casino-reviews/global-poker" target="_blank" rel="noopener">CasinoJournal</a> · <a href="https://thegameday.com/sweepstakes-casinos/global-poker/" target="_blank" rel="noopener">TheGameDay</a></p>
+        </article>
+
+        <!-- #13 -->
+        <article class="card" id="fanduel">
+          <div class="card-top">
+            <div class="rank-num">13</div>
+            <div class="card-head">
+              <h3>FanDuel Casino — Reward Machine</h3>
+              <div class="card-value"><span class="zero">$0 guaranteed</span> · chance-based, up to $2,000/day</div>
+              <div class="badges" style="margin-top:8px;"><span class="badge real">Real-money · PA-licensed</span><span class="badge">21+</span><span class="badge">Open to all customers</span></div>
+            </div>
+          </div>
+          <p class="what">Not a sign-up bonus: a <strong>daily free-to-play game</strong> for every FanDuel Casino customer, new or existing. You get <strong>3 free spins every day at 6:00 p.m. ET</strong> (spins expire in 24 hours), with a chance at <strong>up to $2,000 in Casino Bonus daily</strong> plus a shot at an extra $1,000 in the weekly Bonus Draw. Nothing is guaranteed, so it ranks last despite the big headline prize.</p>
+          <div class="fact-grid">
+            <div class="fact"><span class="k">Wagering on prizes</span>1x, per Action Network (total top value described as $3,000 in casino credits)</div>
+            <div class="fact"><span class="k">Code</span>None — account required; you must be physically in PA (FanDuel Casino also runs in MI/NJ/WV)</div>
+            <div class="fact"><span class="k">Don't confuse it</span>FanDuel's <em>welcome</em> offer is <strong>not</strong> no-deposit — it requires a $5 deposit (1,000 bonus spins + $25 casino bonus)</div>
+          </div>
+          <div class="cta-row">
+            <a class="claim-btn small" href="https://www.fanduel.com/casino" target="_blank" rel="noopener">Play the Reward Machine at FanDuel →</a>
+            <button class="claimed-btn" type="button" aria-pressed="false">Mark as claimed</button>
+          </div>
+          <p class="sources-line">Sources: <a href="https://www.fanduel.com/casino-101/getting-started" target="_blank" rel="noopener">FanDuel, Getting Started (operator)</a> · <a href="https://www.actionnetwork.com/casino/fanduel/reward-machine" target="_blank" rel="noopener">Action Network</a></p>
+        </article>
+      </section>
+
+      <!-- ================= FLAGS ================= -->
+      <section class="flags">
+        <h2>Flagged: unconfirmed or not claimable in PA</h2>
+        <p class="section-note">These show up on other sites' lists with big numbers. They are <strong>not</strong> in the ranking above, for the reasons stated — check them yourself before relying on any of them.</p>
+
+        <div class="flag-card bad">
+          <span class="status-tag">Not available in Pennsylvania</span>
+          <h3>Stake.us — 250,000 GC + 25 SC + daily 1 SC</h3>
+          <p>The largest SC headline anywhere — and excluded, because Pennsylvania appears in the restricted-states list in every current source checked (Covers, updated Oct 26, 2026; Legal Sports Report, verified Oct 27, 2026; Pokerfuse; TheGameDay). Terms where it is available: 3x playthrough, mail-in 5 SC, 21+.</p>
+        </div>
+
+        <div class="flag-card bad">
+          <span class="status-tag">Not available for sweeps play in PA</span>
+          <h3>High 5 Casino — 5 SC registration bonus</h3>
+          <p>High 5's own sweepstakes page lists Pennsylvania among the states where "sweepstakes gaming is unavailable" (21+ for sweeps where offered). The 5 SC registration bonus (Pokerfuse, last verified Oct 2026) therefore can't be claimed as SC play from PA; only non-sweeps Classic/Game Coin play may be offered.</p>
+        </div>
+
+        <div class="flag-card warn">
+          <span class="status-tag">Unconfirmed — likely closed</span>
+          <h3>LuckyLand Slots — 7,777 GC + 10 SC</h3>
+          <p>This would have ranked #1–#2 on SC value, so the flag matters. Per USPoker (updated Oct 2026): as of September 2026 the LuckyLand domain "no longer loads a playable casino," visitors are redirected to a "not available" page, VGW has folded its slots offering into Chumba, and it "does not accept new registrations." Older tracker listings of 7,777 GC + 10 SC (Casino.org, Tech-Insider) appear out of date.</p>
+        </div>
+
+        <div class="flag-card warn">
+          <span class="status-tag">Past offer only — not current</span>
+          <h3>Hollywood Casino PA — $10 no-deposit</h3>
+          <p>Action Network's Hollywood page: "as of October 27, 2026, there currently isn't a Hollywood Casino no deposit bonus"; the $10 free chip (1x) is described in the past tense, and Covers agrees. The current welcome requires wagering $5 (up to $500 PENN Play Credits + 300 spins, code ACTIONCAS).</p>
+        </div>
+
+        <div class="flag-card warn">
+          <span class="status-tag">Discontinued</span>
+          <h3>Borgata Casino PA — $20 free on sign-up</h3>
+          <p>Per Pokerfuse, the $20 registration bonus "is no longer available." The current PA welcome requires a deposit — a 100% match up to $500 <em>or</em> 20 bonus spins per $10 deposited.</p>
+        </div>
+      </section>
+
+      <!-- ================= CHECKED, NO NO-DEPOSIT ================= -->
+      <section class="checked">
+        <h2>PA-licensed casinos checked — no current no-deposit offer</h2>
+        <p class="section-note">So you don't waste time hunting: every other named PA operator requires money in first. BetMGM (rank #1) and Caesars (rank #2) are the exceptions. From PlayPennsylvania's PA bonus comparison (offers checked Oct 13, 2026) and operator-specific trackers.</p>
+        <div class="checked-list">
+          <ul>
+            <li><strong>DraftKings Casino</strong> — $5 in wagers → 1,000 Flex Spins incl. 100 Lightning Link spins; 50/day for 20 days, 1x on winnings, daily batches expire in 24 hours; offer shown ending 11/22/26</li>
+            <li><strong>FanDuel Casino</strong> — $5 deposit → 1,000 spins + $25 bonus (but the free Reward Machine at rank #13 needs no deposit)</li>
+            <li><strong>BetRivers</strong> — PA: $10 deposit → 100% match up to $250 + up to 500 Lion Link spins, 1x, code PACASINO250/BONUSON. Bookies (Oct 21, 2026): "BetRivers doesn't offer a no deposit bonus right now"</li>
+            <li><strong>Borgata</strong> — $10 deposit (see above)</li>
+            <li><strong>Hollywood Casino</strong> — wager $5 (see above)</li>
+            <li><strong>betPARX</strong> — deposit-based loss-back up to $500 + 250 bonus spins on Red Wizard: Bank It Up or Fire Blaze: White Witch (Action Network PA page)</li>
+            <li><strong>Fanatics Casino</strong> — PA: wager $10 → 1,000 bonus spins on 7's Fire Blitz Hotstepper 2, 100/day for 10 days, each day's spins expire 11:59 p.m. ET, 1x (Bookies, Oct 25, 2026)</li>
+          </ul>
+        </div>
+        <div class="callout warn" style="margin-top:16px;">
+          <strong>Open questions, stated plainly</strong>
+          Maximum cashable caps: no cap is stated for the Caesars $10 bonus, WOW Vegas, or Global Poker in the sources read — absence of a stated cap is not proof none exists in the full operator rules. McLuck's SC expiry and exact sign-up split remain unresolved (see rank #7). Caesars tracker codes differ by affiliate (SLINELAUNCH, PLAYPALAUNCH, ROTOCASLAUNCH, ACTIONLAUNCH, CSCASINO2500, TODAYCASLAUNCH); the only operator-published code is <strong>WELCOME</strong> — all appear to attach to the same $10 + match package, but only WELCOME is confirmed from Caesars itself. One stale page: CrossingBroad's PA page (last updated ~Oct 1, 2026) says Caesars has no no-deposit bonus — it is contradicted by Caesars' own live PA terms and by Oct 26–27, 2026 trackers; the operator's own terms were treated as controlling.
+        </div>
+      </section>
+
+      <!-- ================= SOURCES ================= -->
+      <section class="all-sources">
+        <h2>Sources</h2>
+        <p class="section-note">All read October 27, 2026 unless a page date is shown; the BetMGM, LoneStar and Spree entries were verified November 12, 2026. "Verified live" means the page was opened and read during the research.</p>
+        <ol>
+          <li>Caesars Palace Online PA (operator) — verified live 2026-10-27 — <a href="https://caesarspalaceonline.com/pa" target="_blank" rel="noopener">caesarspalaceonline.com/pa</a></li>
+          <li>Caesars Palace Online PA Promo Details (operator) — verified live 2026-10-27 — <a href="https://caesarspalaceonline.com/pa/promo-details" target="_blank" rel="noopener">caesarspalaceonline.com/pa/promo-details</a></li>
+          <li>SportsLine, Best No Deposit Bonus Casino Offers — updated Oct 26, 2026 — <a href="https://www.sportsline.com/casinos/best-no-deposit-bonus-casino-offers-to-try-this-week/" target="_blank" rel="noopener">sportsline.com</a></li>
+          <li>Action Network, Caesars Casino No Deposit Bonus — last verified Oct 27, 2026 — <a href="https://www.actionnetwork.com/casino/bonuses/caesars-casino-no-deposit-bonus" target="_blank" rel="noopener">actionnetwork.com</a></li>
+          <li>PlayPennsylvania, PA Casino Bonus &amp; No Deposit Bonus Codes — offers checked Oct 13, 2026 — <a href="https://www.playpennsylvania.com/casinos/bonus/" target="_blank" rel="noopener">playpennsylvania.com</a></li>
+          <li>PlayPennsylvania, Caesars Online Casino Review — last updated Oct 22, 2026 — <a href="https://www.playpennsylvania.com/casinos/caesars/" target="_blank" rel="noopener">playpennsylvania.com</a></li>
+          <li>RotoWire, Caesars Casino Bonus Code ROTOCASLAUNCH — <a href="https://www.rotowire.com/news/caesars-casino-bonus-code-rotocaslaunch-in-2026-score-1k-25k-rewards-credits-137366" target="_blank" rel="noopener">rotowire.com</a></li>
+          <li>Action Network, Hollywood Casino promo — as of Oct 27, 2026 — <a href="https://www.actionnetwork.com/casino/hollywood" target="_blank" rel="noopener">actionnetwork.com</a></li>
+          <li>Pokerfuse, Best No Deposit Bonuses at Online Casinos in PA — <a href="https://pokerfuse.com/online-casinos/pennsylvania/best-no-deposit-bonus-online-casino-pa/" target="_blank" rel="noopener">pokerfuse.com</a></li>
+          <li>Bookies, BetRivers Casino Bonus Code — Oct 21, 2026 — <a href="https://bookies.com/news/promo/betrivers-casino-promo-code-up-to-500-back-250-match-10-21-2026" target="_blank" rel="noopener">bookies.com</a></li>
+          <li>Bookies, Fanatics Casino Promo Code — Oct 25, 2026 — <a href="https://bookies.com/news/promo/fanatics-casino-promo-code-1000-bonus-spins-10-25-2026" target="_blank" rel="noopener">bookies.com</a></li>
+          <li>BettingVerdict, BetMGM Casino Bonus Code — verified Sep 10, 2026 — <a href="https://bettingverdict.com/casinos/betmgm/bonus/" target="_blank" rel="noopener">bettingverdict.com</a></li>
+          <li>CrossingBroad, PA Online Casino Promo Codes &amp; No Deposit Bonus — updated ~Oct 1, 2026 — <a href="https://www.crossingbroad.com/pa-online-casino/bonus-codes/" target="_blank" rel="noopener">crossingbroad.com</a></li>
+          <li>FanDuel (operator), Getting Started on FanDuel Casino — Reward Machine — <a href="https://www.fanduel.com/casino-101/getting-started" target="_blank" rel="noopener">fanduel.com</a></li>
+          <li>Action Network, FanDuel Reward Machine — <a href="https://www.actionnetwork.com/casino/fanduel/reward-machine" target="_blank" rel="noopener">actionnetwork.com</a></li>
+          <li>GamingAmerica, Fortune Coins Review — updated Oct 25, 2026 — <a href="https://gamingamerica.com/gambling-sites/fortune-coins" target="_blank" rel="noopener">gamingamerica.com</a></li>
+          <li>Insider Gaming, Where Is Fortune Coins Legal? — Oct 2026 — <a href="https://insider-gaming.com/sweepstakes-casinos/fortune-coins-legal-states/" target="_blank" rel="noopener">insider-gaming.com</a></li>
+          <li>Legal Sports Report, WOW Vegas Promo Code — last verified Oct 27, 2026 — <a href="https://www.legalsportsreport.com/sweepstakes-casinos/wow-vegas/promo-code/" target="_blank" rel="noopener">legalsportsreport.com</a></li>
+          <li>GamingAmerica, WOW Vegas Review — updated Oct 26, 2026 — <a href="https://gamingamerica.com/gambling-sites/wow-vegas" target="_blank" rel="noopener">gamingamerica.com</a></li>
+          <li>PlayPennsylvania, McLuck Social Casino Review — last updated Oct 2026 — <a href="https://www.playpennsylvania.com/sweepstakes/mcluck/" target="_blank" rel="noopener">playpennsylvania.com</a></li>
+          <li>SweepsDuke, McLuck Review — updated Oct 27, 2026 — <a href="https://sweepsduke.com/casino/mcluck/" target="_blank" rel="noopener">sweepsduke.com</a></li>
+          <li>Casino.org, Pulsz Promo Code CORGBONUS — Oct 2026 — <a href="https://www.casino.org/us/bonus/pulsz/" target="_blank" rel="noopener">casino.org</a></li>
+          <li>Legal Sports Report, Pulsz Casino Review — updated Oct 2026 — <a href="https://www.legalsportsreport.com/sweepstakes-casinos/pulsz/" target="_blank" rel="noopener">legalsportsreport.com</a></li>
+          <li>CasinoJournal, Global Poker Review — checks dated Oct 23, 2026; rules v25.1 / terms v29.1 (Sep 16, 2026) — <a href="https://www.casinojournal.com/casino-reviews/global-poker" target="_blank" rel="noopener">casinojournal.com</a></li>
+          <li>VegasInsider, Chumba Casino Promo Code — updated Oct 27, 2026 — <a href="https://www.vegasinsider.com/sweepstakes-casinos/chumba/" target="_blank" rel="noopener">vegasinsider.com</a></li>
+          <li>USPoker, LuckyLand Slots — updated Oct 2026 — <a href="https://www.uspoker.com/online-casinos/luckyland-slots/" target="_blank" rel="noopener">uspoker.com</a></li>
+          <li>Covers, Stake.us Promo Code — updated Oct 26, 2026 — <a href="https://www.covers.com/casino/bonuses/stake-bonus-code" target="_blank" rel="noopener">covers.com</a></li>
+          <li>Legal Sports Report, Stake.us Promo Code — last verified Oct 27, 2026 — <a href="https://www.legalsportsreport.com/sweepstakes-casinos/stake-us/promo-code/" target="_blank" rel="noopener">legalsportsreport.com</a></li>
+          <li>High 5 Casino (operator), Sweepstakes page — <a href="https://high5casino.com/sweepstakes/" target="_blank" rel="noopener">high5casino.com</a></li>
+          <li>Pokerfuse, High 5 Casino Review — last verified Oct 2026 — <a href="https://pokerfuse.com/online-casinos/sweepstakes/high-5-casino-review/" target="_blank" rel="noopener">pokerfuse.com</a></li>
+          <li>SportsGrid, MyPrize.US Review — checked Nov 7, 2026 — <a href="https://www.sportsgrid.com/social-casinos/myprize-us-review" target="_blank" rel="noopener">sportsgrid.com</a></li>
+          <li>Legal Sports Report, MyPrize Casino Review &amp; Promo Code — updated Nov 2, 2026 — <a href="https://www.legalsportsreport.com/sweepstakes-casinos/myprize/" target="_blank" rel="noopener">legalsportsreport.com</a></li>
+          <li>Bonus.com, MyPrize.us Promo Code Review — updated Nov 1, 2026 — <a href="https://www.bonus.com/sweepstakes-casinos/myprize/" target="_blank" rel="noopener">bonus.com</a></li>
+          <li>Casino.org, Sportzino Casino Review — checked Nov 7, 2026 — <a href="https://www.casino.org/us/sweepstakes-casinos/sportzino/" target="_blank" rel="noopener">casino.org</a></li>
+          <li>Sportzino (operator), How to Claim a No-Deposit Sweeps Coins Bonus — checked Nov 7, 2026 — <a href="https://sportzino.com/blog/how-to-claim-a-no-deposit-sweeps-coins-bonus/" target="_blank" rel="noopener">sportzino.com</a></li>
+          <li>SweepsGrade, Sportzino Review — verified Oct 28, 2026 — <a href="https://www.sweepsgrade.com/casinos/sportzino/" target="_blank" rel="noopener">sweepsgrade.com</a></li>
+          <li>WIN.gg, Sportzino Promo Code — checked Nov 7, 2026 — <a href="https://win.gg/reviews/sportzino/promo-code/" target="_blank" rel="noopener">win.gg</a></li>
+          <li>BetMGM Casino PA Promotions (operator) — verified Nov 12, 2026 — <a href="https://casino.betmgm.com/en/blog/casino-bonuses-promotions/" target="_blank" rel="noopener">casino.betmgm.com</a></li>
+          <li>LoneStar Casino welcome offer — PlayUSA, Casino.org and Bonus.com — verified Nov 12, 2026</li>
+          <li>Spree Casino welcome offer — PlayUSA, Bonus.com, Casino.org and Deadspin — verified Nov 12, 2026</li>
+        </ol>
+      </section>
+
+      <footer>
+        <p class="rg">Play it safe: if gambling stops being fun, help is free and confidential — call or text 1-800-GAMBLER (Pennsylvania). Real-money offers are 21+ and you must be physically in Pennsylvania to wager. Sweepstakes offers are no-purchase-necessary promotions; coin balances with no cash value (Gold Coins, WOW Coins) can't be redeemed.</p>
+        <p>Offers checked Thursday, November 12, 2026 (original list October 27, 2026; Sportzino and MyPrize.us added November 7; BetMGM, LoneStar Casino and Spree Casino added November 12). Casinos change promotions without notice — the operator's own terms on the claim page control if anything differs from what's listed here.</p>
+      </footer>
+    </div>
+
+    <script>
+      (function () {
+        // Copy-to-clipboard for promo codes, with a fallback for older webviews.
+        function copyText(text, btn) {
+          function done() {
+            var original = btn.getAttribute("data-label") || btn.textContent;
+            btn.setAttribute("data-label", original);
+            btn.textContent = "Copied ✓";
+            setTimeout(function () { btn.textContent = original; }, 1800);
+          }
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(done, function () { fallback(); });
+          } else { fallback(); }
+          function fallback() {
+            var ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed"; ta.style.opacity = "0";
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand("copy"); done(); } catch (e) { btn.textContent = text; }
+            document.body.removeChild(ta);
+          }
+        }
+        var copyBtns = document.querySelectorAll("[data-copy]");
+        for (var i = 0; i < copyBtns.length; i++) {
+          (function (btn) {
+            btn.addEventListener("click", function () { copyText(btn.getAttribute("data-copy"), btn); });
+          })(copyBtns[i]);
+        }
+
+        // "Mark as claimed" toggles — in-memory only, for this session.
+        var claimBtns = document.querySelectorAll(".claimed-btn");
+        for (var j = 0; j < claimBtns.length; j++) {
+          (function (btn) {
+            btn.addEventListener("click", function () {
+              var on = btn.getAttribute("aria-pressed") === "true";
+              btn.setAttribute("aria-pressed", on ? "false" : "true");
+              btn.textContent = on ? "Mark as claimed" : "✓ Claimed";
+            });
+          })(claimBtns[j]);
+        }
+
+        // WOW Vegas: days left in the window one source gives (Oct 31, 2026).
+        var cd = document.getElementById("wow-countdown");
+        if (cd) {
+          var end = new Date("2026-10-31T23:59:59-04:00").getTime();
+          var now = Date.now();
+          if (now < end) {
+            var days = Math.ceil((end - now) / 86400000);
+            cd.textContent = " (" + days + (days === 1 ? " day" : " days") + " left in that window)";
+          } else {
+            cd.textContent = " (that date has passed — check the live offer)";
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>
